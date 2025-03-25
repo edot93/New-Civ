@@ -35,4 +35,48 @@
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
 	}
+	{
+		"name": "Firenze",
+		"leaderName": "Lorenzo de Medici",
+		"adjective": ["di Firenze"],
+		"startBias": ["Hill", "Wine"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Salute a te, Lorenzo de Medici, signore di Firenze. 
+		Mecenante del Rinascimento, con il tuo oro sei riuscito a dare l'avvio 
+		a una nuova epoca per le arti e la filosofia, mentre con la tua diplomazia
+		sei stato capace di mantenere ordine tra i riottosi signori italiani. 
+		Ancora una volta gli italiani hanno bisogno del tuo aiuto, riuscirai a 
+		guidarli in una nuova età dell'oro o Magnifico?!",
+		"startIntroPart2": "Il mondo è tornato ad essere una tela bianca, Lorenzo de Medici. 
+		Spetta a te riempirla. Mecenante di Da Vinci e Michelangelo guida la cultura italiana 
+		verso un nuovo Rinascimento, così che il nome del Magnifico potrà nuovamente essere 
+		riconosciuto come sinonimo di Arte. Potrà la tua civiltà resistere al tempo ?",
+		
+		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
+		"attacked": "Boia!",
+		"defeated": "Io fo come i' Baglioni... mi levo dai co****ni!",
+		"introduction": "Benvenuto a Firenze, la culla del Rinascimento, io sono Lorenzo de Medici, mecenante, poeta e signore di questa città ",
+		
+		"neutralHello": "Icché tu fai??",
+		"neutralLetsHearIt": ["Procedi.","Che tu dici?","Iniziamo."],
+		"neutralNo": ["Direi di no.","No!","Mi rifiuto."],
+		"neutralYes": ["Bene.","Certamente.","Buona idea."],
+
+		"hateHello": "Maremma, ancora tu",
+		"hateLetsHearIt": ["Ciancia!","Che vuoi da me?","Dimmi."],
+		"hateNo": ["Fa le cose a babbo morto!","T'ha dato di barta i’ cervello?!","Icchè c'ho scritto in fronte, Giocondo?"],
+		"hateYes": ["Se proprio devo.","Può bastare.","...accetto"],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [51,23,26],
+		"innerColor": [251,223,226],
+		"unique": "MANIFEST_DESTINY",
+		"cities": ["Firenze","Arezzo","Montepulciano","Montalcino","San Gimignano","Volterra","Empoli","Pistoria","Motecatini","Livorno",
+			"Cecina","Grosseto","Scansano","Piombino","Follonica","Pisa","Fiesole","Pistoia","Prato","Buonconvento",
+			"Follonica","Portoferraio","Pitigliano","Sorano","Firenzuola","Vinci","Subbiano","San Sepolcro","Massa Marittima","Monte Argentario",
+			"Gavorrano","Orbetello","Punta Ala"]
+	}
 ]
