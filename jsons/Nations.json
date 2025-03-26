@@ -42,14 +42,8 @@
 		"startBias": ["Hill", "Wine"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": "Firenze è nelle tue mani, Lorenzo de' Medici. 
-		Guidala con la saggezza che ti ha reso celebre, e lascia che le arti e la cultura prosperino sotto il tuo patronato. 
-		Il mondo guarda alla tua città, e con la tua abilità diplomatica e la tua visione, potrai costruire un impero che risuonerà 
-		nei secoli. !",
-		"startIntroPart2": "Il mondo è di nuovo una tela bianca, Lorenzo de' Medici.
-		Spetta a te dipingerla. Mecenate di Da Vinci e Michelangelo, guida la cultura italiana verso un nuovo Rinascimento, 
-		affinché il nome del Magnifico torni a essere sinonimo di Arte. 
-		Sarà la tua civiltà capace di resistere alla prova del tempo?",
+		"startIntroPart1": "Firenze è nelle tue mani, Lorenzo de' Medici. Guidala con la saggezza che ti ha reso celebre, e lascia che le arti e la cultura prosperino sotto il tuo patronato. Il mondo guarda alla tua città, e con la tua abilità diplomatica e la tua visione, potrai costruire un impero che risuonerà nei secoli. !",
+		"startIntroPart2": "Il mondo è di nuovo una tela bianca, Lorenzo de' Medici. Spetta a te dipingerla. Mecenate di Da Vinci e Michelangelo, guida la cultura italiana verso un nuovo Rinascimento, affinché il nome del Magnifico torni a essere sinonimo di Arte. Sarà la tua civiltà capace di resistere alla prova del tempo?",
 		"declaringWar": "La guerra non è mai la prima scelta, ma se è il destino a volerla, Firenze risponderà con forza",
 		"attacked": "Se la guerra ci è imposta, risponderemo con forza. Siate pronti a fronteggiare la forza di Firenze!",
 		"defeated": "Non far troppo dei beni o dei mali che puoi incontrare,perché il tempo è come vento,e tutto può cambiare.",
@@ -70,8 +64,76 @@
 
 		"outerColor": [51,23,26],
 		"innerColor": [251,223,226],
-		"uniqueName": "Mecenante del Rinascimento",
-		"uniques": ["[Great Person] is earned [50]% faster"", "[+50]% Golden Age length"],
+		"uniques": "Mecenante del Rinascimento",
+		"cities": ["Firenze","Arezzo","Montepulciano","Montalcino","San Gimignano","Volterra","Empoli","Pistoria","Motecatini","Livorno",
+			"Cecina","Grosseto","Scansano","Piombino","Follonica","Pisa","Fiesole","Pistoia","Prato","Buonconvento",
+			"Follonica","Portoferraio","Pitigliano","Sorano","Firenzuola","Vinci","Subbiano","San Sepolcro","Massa Marittima","Monte Argentario",
+			"Gavorrano","Orbetello","Punta Ala"]
+	}
+	{
+		"name": "Toscana",
+		"leaderName": "Matilde di Canossa",
+		"adjective": ["toscano"],
+		"startBias": ["Hill", "Wine"],
+		"preferredVictoryType": "Religious", "Dominance",
+		
+		"startIntroPart1": "Dama di Canossa, signora di terre e fede, il destino ti chiama ancora. Con mano ferma hai retto il potere tra papi e imperatori, e con la tua saggezza hai saputo difendere la libertà della tua gente. Guidi un popolo devoto e fiero, pronto a innalzare chiese e castelli per proteggere la sua eredità. Ora, le tue città potranno ancora splendere come bastioni di fede e giustizia? Saprai destreggiarti tra alleanze e conflitti, imponendo il tuo volere nei giochi della politica medievale? Il mondo attende, Matilda. Fa’ che il tuo nome riecheggi nei secoli",
+		"startIntroPart2": "Oh, Matilda di Canossa, baluardo di fede e giustizia! In un’epoca segnata da lotte tra imperatori e papi, hai saputo governare con saggezza e determinazione. Le tue terre sono state fortezze di libertà, e il tuo nome è diventato simbolo di lealtà e coraggio. Ora il mondo si dispiega ancora dinanzi a te. Erigerai castelli inespugnabili e guiderai il tuo popolo con la stessa fermezza di un tempo? Saprai intrecciare alleanze e difendere la tua eredità con astuzia e forza? Il tempo del comando è giunto, Matilda. La storia attende il tuo sigillo. Sarà la tua civiltà capace di resistere alla prova del tempo?",
+		"declaringWar": "La guerra non è mai la prima scelta, ma se è il destino a volerla, Firenze risponderà con forza",
+		"attacked": "Se la guerra ci è imposta, risponderemo con forza. Siate pronti a fronteggiare la forza di Firenze!",
+		"defeated": "Le mie terre han resistito a imperatori e tiranni, tu non sei niente di rivelante, un giorno la Toscana risorgerà",
+		"introduction": "Io son Matilda di Canossa, signora di queste terre e protettrice della fede. Ho difeso il mio popolo da imperatori superbi e ho dato rifugio a papi e pellegrini. Se tu cerchi alleanza e onore, troverai in me una guida leale. Ma s’oggi venissi con inganno o minaccia, sappi che le mie mura son forti, e la mia volontà ancor di più. Qual è la tua intenzione, forestiero?",
+		
+		"neutralHello": "Le mie terre rispettano la fede e l’onore. Speriamo sia lo stesso per te",
+		"neutralLetsHearIt": ["Procedi.","Che tu dici?","Iniziamo."],
+		"neutralNo": ["Direi di no.","No!","Mi rifiuto."],
+		"neutralYes": ["Bene.","Certamente.","Buona idea."],
+
+		"hateHello": "Non tutti son benvenuti a Canossa…",
+		"hateLetsHearIt": ["Ciancia!","Che vuoi da me?","Dimmi."],
+		"hateNo": ["Fa le cose a babbo morto!","T'ha dato di barta i’ cervello?!","Icchè c'ho scritto in fronte, Giocondo?"],
+		"hateYes": ["Se proprio devo.","Può bastare.","...accetto"],
+		
+		"afterPeace": "La guerra stanca anche i più forti. È tempo di far riposare le spade e trattar con saggezza.",
+		"tradeRequest": "Un buon patto arricchisce entrambi. Ho risorse pregiate e artigiani sapienti… vediamo se si può far affari.",
+
+		"outerColor": [51,23,26],
+		"innerColor": [251,223,226],
+		"uniques": "Umiliazione di Canossa",
+		"cities": ["Canossa","Mantova","Crema","Guastalla","Brescello","Reggio Emilia","Luni","Civita Castellana","Borgoforte","Carpi",
+			"Castellarano","San Benedetto Po","Nonantola","Pistoia","Arezzo","Modena","Fiesole","Chiusi","Quattro Castella","Pontremoli",
+			"Castell'Arquato","Suzzara","San Polo d'Enza","Monteveglio","Bismantova","Toano","Carpineti",]
+	}
+	{
+		"name": "Italia",
+		"leaderName": "Dante Alighieri",
+		"adjective": ["di Firenze"],
+		"startBias": ["Hill", "Wine"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Poeta sommo, esule fiero, guida del pensiero e della parola! Dante Alighieri, la tua voce ha plasmato la lingua e la cultura del tuo tempo, e il tuo nome risuona nei secoli. Hai conosciuto l'esilio e l'intrigo, ma anche la gloria della creazione. Ora ti viene data una nuova occasione: saprai trasformare la tua civiltà in un faro di cultura e giustizia? Le tue parole guideranno le menti o la tua penna si trasformerà in spada? Il mondo attende il tuo poema, Dante. Scrivine il destino",
+		"startIntroPart2": "Dante Alighieri, poeta e visionario, la tua penna ha tracciato sentieri che trascendono il tempo e lo spazio. Da Firenze al Paradiso, passando per l'Inferno e il Purgatorio, hai visto e raccontato ciò che sfugge agli occhi degli altri. ",
+		"declaringWar": "Or discendi ne l’abisso che t’aspettava! Qui si paga ogni debito d’onta",
+		"attacked": "Dove la legge non regna, la forza la sostituisce. E oggi, la forza è dalla mia parte",
+		"defeated": "Di me rimarranno i versi, è ora di riveder le stelle",
+		"introduction": "L’esilio mi ha forgiato, ma la mia penna ha solcato il mondo come un fuoco che non si spegne. Io sono Dante Alighieri",
+		
+		"neutralHello": "Icché tu ci richiedi?",
+		"neutralLetsHearIt": ["Procedi.","Che tu dici?","Iniziamo."],
+		"neutralNo": ["Direi di no.","No!","Mi rifiuto."],
+		"neutralYes": ["Bene.","Certamente.","Buona idea."],
+
+		"hateHello": "Maremma, ancora tu",
+		"hateLetsHearIt": ["Ciancia!","Che vuoi da me?","Dimmi."],
+		"hateNo": ["Fa le cose a babbo morto!","T'ha dato di barta i’ cervello?!","Icchè c'ho scritto in fronte, Giocondo?"],
+		"hateYes": ["Se proprio devo.","Può bastare.","...accetto"],
+		
+		"afterPeace": "Oserai ascoltare la ragione, o preferirai seguire il tuo destino tra le fiamme del conflitto?",
+		"tradeRequest": "Commercio e alleanze sono il cuore della nostra forza.Tu hai ciò che ci serve e noi quello che desideri",
+
+		"outerColor": [51,23,26],
+		"innerColor": [251,223,226],
+		"uniques": "Sommo Poeta",
 		"cities": ["Firenze","Arezzo","Montepulciano","Montalcino","San Gimignano","Volterra","Empoli","Pistoria","Motecatini","Livorno",
 			"Cecina","Grosseto","Scansano","Piombino","Follonica","Pisa","Fiesole","Pistoia","Prato","Buonconvento",
 			"Follonica","Portoferraio","Pitigliano","Sorano","Firenzuola","Vinci","Subbiano","San Sepolcro","Massa Marittima","Monte Argentario",
