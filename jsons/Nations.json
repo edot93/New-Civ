@@ -64,7 +64,7 @@
 
 		"outerColor": [51,23,26],
 		"innerColor": [251,223,226],
-		"uniques": "Mecenante del Rinascimento",
+		"unique": "Mecenante del Rinascimento",
 		"cities": ["Firenze","Arezzo","Montepulciano","Montalcino","San Gimignano","Volterra","Empoli","Pistoria","Motecatini","Livorno",
 			"Cecina","Grosseto","Scansano","Piombino","Follonica","Pisa","Fiesole","Pistoia","Prato","Buonconvento",
 			"Follonica","Portoferraio","Pitigliano","Sorano","Firenzuola","Vinci","Subbiano","San Sepolcro","Massa Marittima","Monte Argentario",
@@ -99,7 +99,7 @@
 
 		"outerColor": [51,23,26],
 		"innerColor": [251,223,226],
-		"uniques": "Umiliazione di Canossa",
+		"unique": "Umiliazione di Canossa",
 		"cities": ["Canossa","Mantova","Crema","Guastalla","Brescello","Reggio Emilia","Luni","Civita Castellana","Borgoforte","Carpi",
 			"Castellarano","San Benedetto Po","Nonantola","Pistoia","Arezzo","Modena","Fiesole","Chiusi","Quattro Castella","Pontremoli",
 			"Castell'Arquato","Suzzara","San Polo d'Enza","Monteveglio","Bismantova","Toano","Carpineti",]
@@ -133,7 +133,7 @@
 
 		"outerColor": [51,23,26],
 		"innerColor": [251,223,226],
-		"uniques": "Sommo Poeta",
+		"unique": "Sommo Poeta",
 		"cities": ["Firenze","Arezzo","Montepulciano","Montalcino","San Gimignano","Volterra","Empoli","Pistoria","Motecatini","Livorno",
 			"Cecina","Grosseto","Scansano","Piombino","Follonica","Pisa","Fiesole","Pistoia","Prato","Buonconvento",
 			"Follonica","Portoferraio","Pitigliano","Sorano","Firenzuola","Vinci","Subbiano","San Sepolcro","Massa Marittima","Monte Argentario",
