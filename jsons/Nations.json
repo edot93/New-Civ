@@ -42,23 +42,20 @@
 		"startBias": ["Hill", "Wine"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": "Salute a te, Lorenzo de Medici, signore di Firenze. 
-		Mecenante del Rinascimento, con il tuo oro sei riuscito a dare l'avvio 
-		a una nuova epoca per le arti e la filosofia, mentre con la tua diplomazia
-		sei stato capace di mantenere ordine tra i riottosi signori italiani. 
-		Ancora una volta gli italiani hanno bisogno del tuo aiuto, riuscirai a 
-		guidarli in una nuova età dell'oro o Magnifico?!",
-		"startIntroPart2": "Il mondo è tornato ad essere una tela bianca, Lorenzo de Medici. 
-		Spetta a te riempirla. Mecenante di Da Vinci e Michelangelo guida la cultura italiana 
-		verso un nuovo Rinascimento, così che il nome del Magnifico potrà nuovamente essere 
-		riconosciuto come sinonimo di Arte. Potrà la tua civiltà resistere al tempo ?",
+		"startIntroPart1": "Firenze è nelle tue mani, Lorenzo de' Medici. 
+		Guidala con la saggezza che ti ha reso celebre, e lascia che le arti e la cultura prosperino sotto il tuo patronato. 
+		Il mondo guarda alla tua città, e con la tua abilità diplomatica e la tua visione, potrai costruire un impero che risuonerà 
+		nei secoli. !",
+		"startIntroPart2": "Il mondo è di nuovo una tela bianca, Lorenzo de' Medici.
+		Spetta a te dipingerla. Mecenate di Da Vinci e Michelangelo, guida la cultura italiana verso un nuovo Rinascimento, 
+		affinché il nome del Magnifico torni a essere sinonimo di Arte. 
+		Sarà la tua civiltà capace di resistere alla prova del tempo?",
+		"declaringWar": "La guerra non è mai la prima scelta, ma se è il destino a volerla, Firenze risponderà con forza",
+		"attacked": "Se la guerra ci è imposta, risponderemo con forza. Siate pronti a fronteggiare la forza di Firenze!",
+		"defeated": "Non far troppo dei beni o dei mali che puoi incontrare,perché il tempo è come vento,e tutto può cambiare.",
+		"introduction": "Firenze è 'l core del mondo, e sotto la guida mia, Lorenzo de' Medici, fiorirà come 'n fiore sotto 'l primo sole.",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "Boia!",
-		"defeated": "Io fo come i' Baglioni... mi levo dai co****ni!",
-		"introduction": "Benvenuto a Firenze, la culla del Rinascimento, io sono Lorenzo de Medici, mecenante, poeta e signore di questa città ",
-		
-		"neutralHello": "Icché tu fai??",
+		"neutralHello": "Icché tu ci richiedi?",
 		"neutralLetsHearIt": ["Procedi.","Che tu dici?","Iniziamo."],
 		"neutralNo": ["Direi di no.","No!","Mi rifiuto."],
 		"neutralYes": ["Bene.","Certamente.","Buona idea."],
@@ -68,12 +65,13 @@
 		"hateNo": ["Fa le cose a babbo morto!","T'ha dato di barta i’ cervello?!","Icchè c'ho scritto in fronte, Giocondo?"],
 		"hateYes": ["Se proprio devo.","Può bastare.","...accetto"],
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"afterPeace": "Siamo tutti padroni del nostro destino, ma ricorda che Firenze è sempre vigile",
+		"tradeRequest": "Commercio e alleanze sono il cuore della nostra forza.Tu hai ciò che ci serve e noi quello che desideri",
 
 		"outerColor": [51,23,26],
 		"innerColor": [251,223,226],
-		"unique": "MANIFEST_DESTINY",
+		"uniqueName": "Mecenante del Rinascimento",
+		"uniques": ["[Great Person] is earned [50]% faster"", "[+50]% Golden Age length"],
 		"cities": ["Firenze","Arezzo","Montepulciano","Montalcino","San Gimignano","Volterra","Empoli","Pistoria","Motecatini","Livorno",
 			"Cecina","Grosseto","Scansano","Piombino","Follonica","Pisa","Fiesole","Pistoia","Prato","Buonconvento",
 			"Follonica","Portoferraio","Pitigliano","Sorano","Firenzuola","Vinci","Subbiano","San Sepolcro","Massa Marittima","Monte Argentario",
